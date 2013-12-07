@@ -6,7 +6,7 @@
 # catalog-version 1.01
 Name:		texlive-pdftricks2
 Version:	1.01
-Release:	4
+Release:	5
 Summary:	Use pstricks in pdfTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pdftricks2

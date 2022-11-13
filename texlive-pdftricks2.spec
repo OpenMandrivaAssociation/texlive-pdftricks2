@@ -1,18 +1,12 @@
-# revision 31016
-# category Package
-# catalog-ctan /graphics/pdftricks2
-# catalog-date 2013-06-10 19:13:25 +0200
-# catalog-license gpl2
-# catalog-version 1.01
 Name:		texlive-pdftricks2
-Version:	1.01
-Release:	10
+Version:	31016
+Release:	1
 Summary:	Use pstricks in pdfTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pdftricks2
 License:	GPL2
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdftricks2.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdftricks2.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdftricks2.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdftricks2.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +18,12 @@ contain pstricks graphics specifications. The package is
 inspired by pdftricks.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -40,7 +34,7 @@ inspired by pdftricks.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 

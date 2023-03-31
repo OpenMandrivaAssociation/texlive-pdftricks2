@@ -1,6 +1,6 @@
 Name:		texlive-pdftricks2
 Version:	31016
-Release:	1
+Release:	2
 Summary:	Use pstricks in pdfTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pdftricks2

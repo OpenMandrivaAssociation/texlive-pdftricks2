@@ -3,7 +3,7 @@ Version:	31016
 Release:	2
 Summary:	Use pstricks in pdfTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pdftricks2
+URL:		https://www.ctan.org/tex-archive/graphics/pdftricks2
 License:	GPL2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdftricks2.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdftricks2.doc.r%{version}.tar.xz
